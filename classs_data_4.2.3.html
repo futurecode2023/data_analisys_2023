@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин Телефониум</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        nav {
+            width: 200px;
+            background-color: #ddd;
+            padding: 20px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            width: 40%;
+            box-sizing: border-box;
+        }
+
+        .product h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        .product .price {
+            font-weight: bold;
+            color: #ff6600;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Интернет-магазин Телефониум</h1>
+    </header>
+<div class="container">
+    <nav>
+        <h2>Категории</h2>
+        <ul>
+            <li><a href="#">Смартфоны</a></li>
+            <li><a href="#">Аксессуары</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+		<h2>Фильтры</h2>
+            <ul>
+                <li><a href="#">По цене</a></li>
+                <li><a href="#">По бренду</a></li>
+                <li><a href="#">По ОС</a></li>
+                <li><a href="#">По памяти</a></li>
+            </ul>
+    </nav>
+    
+<div class="product-container">
+    <div class="product">
+        <h2>Смартфон Xiaomi Redmi Note 11</h2>
+        <p>Описание: Отличный бюджетный смартфон с высокой производительностью и камерой с разрешением 48 Мп.</p>
+        <p class="price">Цена: ¥1299</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Samsung Galaxy A52</h2>
+        <p>Описание: Стильный и функциональный смартфон с качественным экраном и мощной батареей.</p>
+        <p class="price">Цена: ¥1699</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон iPhone SE (2022)</h2>
+        <p>Описание: Компактный и мощный смартфон от Apple с чипом A15 Bionic и поддержкой 5G.</p>
+        <p class="price">Цена: ¥2999</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Xiaomi Redmi Note 10</h2>
+        <p>Описание: Отличный смартфон с качественным экраном AMOLED и мощным процессором Snapdragon.</p>
+        <p class="price">Цена: ¥1399</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Realme 8</h2>
+        <p>Описание: Стильный и производительный смартфон с мощной камерой и быстрой зарядкой.</p>
+        <p class="price">Цена: ¥1499</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Huawei P40 Lite</h2>
+        <p>Описание: Надежный смартфон с качественной камерой и стильным дизайном.</p>
+        <p class="price">Цена: ¥1699</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Vivo Y20</h2>
+        <p>Описание: Производительный смартфон с долгим временем автономной работы и ярким дизайном.</p>
+        <p class="price">Цена: ¥1199</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Google Pixel 4a</h2>
+        <p>Описание: Компактный смартфон с отличной камерой и чистым Android-опытом.</p>
+        <p class="price">Цена: ¥1999</p>
+    </div>
+    <div class="product-container">
+    <!-- Предыдущие продукты здесь -->
+    <div class="product">
+        <h2>Смартфон Xiaomi Mi 11 Lite</h2>
+        <p>Описание: Стильный и тонкий смартфон с высококачественным экраном AMOLED и мощным процессором Snapdragon.</p>
+        <p class="price">Цена: ¥1799</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Realme GT 5G</h2>
+        <p>Описание: Мощный и производительный смартфон с поддержкой 5G и быстрой зарядкой.</p>
+        <p class="price">Цена: ¥2499</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Huawei Mate 40 Pro</h2>
+        <p>Описание: Флагманский смартфон с передовой камерой Leica и мощным процессором Kirin 9000.</p>
+        <p class="price">Цена: ¥3999</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Vivo X60 Pro</h2>
+        <p>Описание: Производительный смартфон с высококачественной камерой и элегантным дизайном.</p>
+        <p class="price">Цена: ¥2999</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Google Pixel 5</h2>
+        <p>Описание: Инновационный смартфон с чистым Android-опытом и впечатляющей камерой.</p>
+        <p class="price">Цена: ¥2799</p>
+    </div>
+    <div class="product">
+        <h2>Смартфон Xiaomi Poco X3 NFC</h2>
+        <p>Описание: Бюджетный смартфон с высокой производительностью и мощной батареей.</p>
+        <p class="price">Цена: ¥999</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
